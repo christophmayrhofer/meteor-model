@@ -1,6 +1,6 @@
 {
   "name": "meteor-model",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Model based abstraction for Meteor collections and the PubSub system",
   "main": "./dist/main.js",
   "types": "./dist/main.d.ts",
