@@ -1,8 +1,8 @@
 {
   "name": "meteor-model",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Model based abstraction for Meteor collections and the PubSub system",
-  "main": "index.js",
+  "main": "./dist/main",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,7 +26,6 @@
     "LICENSE",
     "README.md"
   ],
-  "main": "./dist/main.js",
   "devDependencies": {
     "@types/meteor": "^1.4.12",
     "typescript": "^2.6.2"
