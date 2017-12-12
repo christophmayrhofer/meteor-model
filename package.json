@@ -1,0 +1,37 @@
+{
+  "name": "meteor-model",
+  "version": "0.0.2",
+  "description": "Model based abstraction for Meteor collections and the PubSub system",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navio-xyz/meteor-model.git"
+  },
+  "keywords": [
+    "meteor",
+    "model"
+  ],
+  "author": "NAVIO.xyz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/navio-xyz/meteor-model/issues"
+  },
+  "homepage": "https://github.com/navio-xyz/meteor-model#readme",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "main": "./dist/main.js",
+  "devDependencies": {
+    "@types/meteor": "^1.4.12",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "class-transformer": "^0.1.8"
+  }
+}
