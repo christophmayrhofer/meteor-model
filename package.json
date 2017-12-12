@@ -1,9 +1,9 @@
 {
   "name": "meteor-model",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Model based abstraction for Meteor collections and the PubSub system",
-  "main": "./lib/main.js",
-  "types": "./lib/main.d.ts",
+  "main": "./dist/main.js",
+  "types": "./dist/main.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
